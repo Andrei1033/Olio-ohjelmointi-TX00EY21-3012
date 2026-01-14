@@ -1,14 +1,12 @@
 import java.util.Scanner;
 
-public class task_1 {
+public class r {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+        Scanner reader = new Skanner(System.in);
 
         System.out.print("Enter a temperature in Fahrenheit: ");
         int farenheits = Integer.parseInt(scanner.nextLine());
 
-        double celsius = (farenheits - 32) * 5 / 9.0;
-
-        System.out.printf("temperatude in celcius is: %.1f%n", celsius);
+        System.out.println("temperatude in celcius is: " + ((double)(farenheits - 32) * 5 / 9));
     }
 }

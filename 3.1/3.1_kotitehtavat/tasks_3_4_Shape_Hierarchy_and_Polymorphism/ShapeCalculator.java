@@ -11,8 +11,20 @@ public class ShapeCalculator {
                 new Triangle(3.0, 8.0, "blue"),
         };
 
+        /*
+        Shape[] shapes2 = {
+                new Circle(55.0, "white"),
+                new Rectangle(94.0, 66.0, "yellow"),
+                new Triangle(39.0, 86.0, "green"),
+        };*/
+
         for (Shape shape : shapes) {
             System.out.println("Area of " + shape + ": " + shape.calculateArea());
         }
+
+        /*
+        for (Shape shape : shapes2) {
+            System.out.println("Area of " + shape + ": " + shape.calculateArea());
+        }*/
     }
 }

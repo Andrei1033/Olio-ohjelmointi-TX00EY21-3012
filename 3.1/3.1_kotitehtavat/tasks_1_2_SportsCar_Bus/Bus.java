@@ -1,13 +1,13 @@
 package tasks_1_2_SportsCar_Bus;
 
 public class Bus extends Car{
-    private int pasangers;
+    private int pasangers = 0;
     private int maxPasangers;
 
     public Bus(String typeName, double initialSpeed, double initialGasolineLevel, int maxPasangers) {
         super(typeName, initialSpeed, initialGasolineLevel);
         this.maxPasangers = maxPasangers;
-        this.pasangers = 0;
+
     }
 
     @Override

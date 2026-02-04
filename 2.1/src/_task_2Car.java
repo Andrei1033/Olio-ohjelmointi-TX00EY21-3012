@@ -17,8 +17,9 @@ public class _task_2Car {
     }
 
     public void accelerate() {
-        if (gasolineLevel > 0)
+        if (gasolineLevel > 0){
             speed += 10;
+            gasolineLevel--;}
         else
             speed = 0;
     }

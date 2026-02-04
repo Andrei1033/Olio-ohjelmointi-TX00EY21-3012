@@ -8,16 +8,16 @@ public class CarDriver {
 
 
         System.out.println("Bus entering");
-        bus.passengerEnter();
-        bus.passengerEnter();
-        bus.passengerEnter();
+        for (int i = 0; i < 5; i++) {
+            bus.passengerEnter();
+        }
         System.out.println("Bus passengers: " + bus.getPassengers());
 
         System.out.println();
         System.out.println("Bus exiting");
-        bus.passengerExit();
-        bus.passengerExit();
-        bus.passengerExit();
+        for (int i = 0; i < 5; i++) {
+            bus.passengerExit();
+        }
         System.out.println("Bus passengers: " + bus.getPassengers());
         System.out.println("Trying to exit buss when it is already empty");
         bus.passengerExit();

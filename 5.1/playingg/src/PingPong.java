@@ -20,7 +20,7 @@ public class PingPong extends Thread {
     }
 
     public static void main(String[] args) {
-        new PingPong("ping", 1).start();   // 1/30 second
-        new PingPong("PONG", 1).start();  // 1/10 second
+        new PingPong("ping", 0).start();   // 1/30 second
+        new PingPong("PONG", 0).start();  // 1/10 second
     }
 }

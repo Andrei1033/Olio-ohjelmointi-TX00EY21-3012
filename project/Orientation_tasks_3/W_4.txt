@@ -1,0 +1,9 @@
+Todennäköisyysjakaumia esiintyy monissa arkipäivän tilanteissa. Esimerkiksi normaalijakaumaa käytetään kuvaamaan ihmisten fyysisiä ominaisuuksia, kuten pituutta ja painoa. Suurin osa ihmisistä sijoittuu keskiarvon lähelle ja ääripäitä esiintyy harvemmin.
+
+Eksponentiaalijakaumaa käytetään usein kuvaamaan aikaa tapahtumien välillä. Esimerkiksi asiakkaiden saapuminen kassajonoon tai puheluiden saapuminen asiakaspalveluun voidaan mallintaa tällä jakaumalla, koska tapahtumat tapahtuvat satunnaisesti ajan kuluessa.
+
+Poisson-jakaumaa käytetään kuvaamaan tapahtumien määrää tietyllä aikavälillä. Esimerkiksi kuinka monta asiakasta saapuu kauppaan tunnin aikana tai kuinka monta sähköpostia henkilö saa päivän aikana.
+
+Binomijakaumaa voidaan käyttää tilanteissa, joissa tarkastellaan onnistumisten määrää tietystä määrästä kokeita. Esimerkiksi kuinka monta opiskelijaa läpäisee tentin tai kuinka monta tuotetta valmistuslinjalla on virheellisiä.
+
+Näitä jakaumia käytetään simulaatioissa, koska ne auttavat mallintamaan todellisen maailman satunnaisuutta ja vaihtelua.

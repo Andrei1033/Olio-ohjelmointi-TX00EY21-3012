@@ -1,0 +1,5 @@
+Singleton-suunnittelumallin tarkoitus on varmistaa, että luokasta voidaan luoda vain yksi olio koko ohjelman aikana. Tämän vuoksi luokan konstruktori tehdään yksityiseksi (private). Kun konstruktori on private, luokan ulkopuolelta ei voida luoda uusia olioita käyttämällä new-operaatiota.
+
+Singleton-luokka tarjoaa julkisen metodin, jonka kautta voidaan hakea ainoa sallittu olio. Tämä metodi tarkistaa, onko olio jo olemassa. Jos oliota ei ole vielä luotu, metodi luo sen. Jos olio on jo olemassa, metodi palauttaa saman olion uudelleen.
+
+Tämä estää useiden olioiden syntymisen ja varmistaa, että kaikki ohjelman osat käyttävät samaa instanssia. Tämä on hyödyllistä esimerkiksi tilanteissa, joissa halutaan hallita yhteistä resurssia, kuten simulaation kelloa.

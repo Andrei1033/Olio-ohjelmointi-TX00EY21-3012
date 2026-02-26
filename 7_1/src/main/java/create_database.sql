@@ -3,8 +3,8 @@ DROP DATABASE IF EXISTS currencydb;
 CREATE DATABASE currencydb;
 USE currencydb;
 
---luodan taulukoja
-CREATE TABLE currencyyy (
+-- luodan taulukoja
+CREATE TABLE currency (
     id INT NOT NULL AUTO_INCREMENT,
     code VARCHAR(3) NOT NULL,
     name VARCHAR(50) NOT NULL,

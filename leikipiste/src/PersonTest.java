@@ -1,21 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Person {
-    private String name;
-    private int age;
-
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    @Override
-    public String toString() {
-        return name + " (" + age + " years)";
-    }
-}
-
 public class PersonTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

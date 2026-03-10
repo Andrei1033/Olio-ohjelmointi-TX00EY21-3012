@@ -9,10 +9,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="harjoitus_6" />
+        <module name="harjoitus_7" />
         <module name="7_1" />
         <module name="7_2" />
         <module name="8_1" />
         <module name="7_3" />
+        <module name="8_2" />
+        <module name="harjoitus_8" />
+        <module name="8_3" />
+        <module name="8_4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

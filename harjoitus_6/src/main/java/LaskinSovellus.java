@@ -21,7 +21,7 @@ public class LaskinSovellus extends Application {
 
         Scene nakyma = new Scene(layout, 300, 200);
         ikkuna.setScene(nakyma);
-        ikkuna.setTitle("Yksinkertainen laskin");
+        ikkuna.setTitle("Kakka laskin");
         ikkuna.show();
     }
 

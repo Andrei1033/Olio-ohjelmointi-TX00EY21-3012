@@ -1,26 +1,26 @@
 class Summaaja implements Runnable {
-private int[] taulukko;
-private int alku;
-private int loppu;
-private int tulos = 0;
+    private int[] taulukko;
+    private int alku;
+    private int loppu;
+    private int tulos = 0;
 
-public Summaaja(int[] taulukko, int alku, int loppu) {
-    this.taulukko = taulukko;
-    this.alku = alku;
-    this.loppu = loppu;
-}
-
-@Override
-public void run() {
-    for (int i = alku; i < loppu; i++) {
-        tulos += taulukko[i];
+    public Summaaja(int[] taulukko, int alku, int loppu) {
+        this.taulukko = taulukko;
+        this.alku = alku;
+        this.loppu = loppu;
     }
-}
 
-public int getTulos() {
-    return tulos;
-}
-}
+    @Override
+    public void run() {
+        for (int i = alku; i < loppu; i++) {
+            tulos += taulukko[i];
+        }
+    }
+
+    public int getTulos() {
+        return tulos;
+    }
+} // runnable luoka
 
 public class Main {
     public static void main(String[] args) {
